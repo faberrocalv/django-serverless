@@ -2,5 +2,5 @@ services:
   django:
     build: .
     ports:
-      - "8000:8000"
+      - "80:80"
     restart: on-failure
